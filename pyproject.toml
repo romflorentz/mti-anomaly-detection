@@ -1,0 +1,23 @@
+[project]
+name = "mti-anomaly-detection"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Romain Florentz",email = "romain@heaviside.fr"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torchvision (>=0.21.0,<0.22.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "opencv-python (>=4.11.0.86,<5.0.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "click (>=8.1.8,<9.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "fire (>=0.7.0,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
